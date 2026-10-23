@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "sample": true,
+  "updated": "2026-01-01T00:00:00Z",
+  "games": [
+    {
+      "id": "merge-defense",
+      "name": "Merge Defense",
+      "version": "0.0.0",
+      "build": 0,
+      "updated": "2026-01-01T00:00:00Z",
+      "web": "https://td.wostools.com",
+      "ios": {
+        "ipa": "https://example.invalid/MergeDefense-0.0.0.ipa",
+        "size": 83886080,
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "min_os": "14.0"
+      },
+      "android": {
+        "apk": "https://example.invalid/MergeDefense-0.0.0.apk",
+        "size": 78643200,
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "min_sdk": 24
+      },
+      "changelog": {
+        "en": ["SAMPLE DATA - replaced by the release pipeline.", "Example entry"],
+        "de": ["BEISPIELDATEN - wird von der Release-Pipeline ersetzt.", "Beispieleintrag"]
+      }
+    }
+  ]
+}
