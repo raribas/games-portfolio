@@ -9,12 +9,6 @@
       "build": 6,
       "updated": "2026-10-23T00:47:49Z",
       "web": "https://td.wostools.com",
-      "ios": {
-        "ipa": "https://github.com/raribas/games-releases/releases/latest/download/MergeDefense.ipa",
-        "size": 80929017,
-        "sha256": "bd5e30326e09f981aa9839c14533fe34b501da0a2dee8319d137dadde0f56e94",
-        "min_os": "14.0"
-      },
       "changelog": {
         "en": [
           "First public build (iOS)"

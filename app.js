@@ -106,6 +106,7 @@
     $('m-date').textContent = g && g.updated ? fmtDate(g.updated) : '-';
     $('m-build').textContent = g && g.build != null ? g.build : '-';
     dlBox($('ios-slot'), g && g.ios, 'ipa', t('dl_ios'), g && g.ios && g.ios.min_os ? t('min') + ' iOS ' + g.ios.min_os : '', sample);
+    if ($('ios-help')) $('ios-help').hidden = !(g && g.ios);
     dlBox($('and-slot'), g && g.android, 'apk', t('dl_and'), g && g.android && g.android.min_sdk ? t('min') + ' Android API ' + g.android.min_sdk : '', sample);
     var ul = $('changelog'); ul.textContent = '';
     var items = g && g.changelog && (g.changelog[lang] || g.changelog.en);

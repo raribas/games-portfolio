@@ -6,36 +6,6 @@
   "website": "https://g.aribas.dev",
   "iconURL": "https://g.aribas.dev/assets/icon.png",
   "tintColor": "#9be564",
-  "apps": [
-    {
-      "name": "Merge Defense",
-      "bundleIdentifier": "dev.aribas.mergedefense",
-      "developerName": "Merge Defense",
-      "subtitle": "Merge heroes. Defend the lane.",
-      "localizedDescription": "Rush-Royale-style tower defense with 1v1, co-op and deck merging.",
-      "iconURL": "https://g.aribas.dev/assets/icon.png",
-      "tintColor": "#9be564",
-      "screenshotURLs": [
-        "https://g.aribas.dev/assets/md-deck.webp",
-        "https://g.aribas.dev/assets/md-match.webp"
-      ],
-      "versions": [
-        {
-          "version": "1.0.0",
-          "buildVersion": "6",
-          "date": "2026-10-23",
-          "downloadURL": "https://github.com/raribas/games-releases/releases/latest/download/MergeDefense.ipa",
-          "size": 80929017,
-          "sha256": "bd5e30326e09f981aa9839c14533fe34b501da0a2dee8319d137dadde0f56e94",
-          "minOSVersion": "14.0",
-          "localizedDescription": "First public build"
-        }
-      ],
-      "version": "1.0.0",
-      "versionDate": "2026-10-23T00:47:49Z",
-      "downloadURL": "https://github.com/raribas/games-releases/releases/latest/download/MergeDefense.ipa",
-      "size": 80929017
-    }
-  ],
+  "apps": [],
   "news": []
 }
