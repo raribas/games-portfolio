@@ -1,9 +1,13 @@
 (function () {
   'use strict';
+  // Single place to set the site/studio name (shown in header brand and footer).
+  var BRAND = 'Merge Defense';
+  Array.prototype.forEach.call(document.querySelectorAll('[data-brand]'), function (e) { e.textContent = BRAND; });
+  var bl = document.querySelector('.brand'); if (bl) bl.setAttribute('aria-label', BRAND);
   var T = {
     en: {
       skip: 'Skip to games', hero_title: 'Small games. Big merges.',
-      hero_lead: 'Handmade games by aribas.dev. Play instantly in your browser or install them on your phone. No ads, no tracking.',
+      hero_lead: 'Handmade games. Play in your browser or install on your phone. No ads, no tracking.',
       hero_cta: 'See the games', games_h: 'Games', shots_label: 'Screenshots',
       shot1: 'Merge Defense main menu', shot2: 'Choosing a five-hero deck', shot3: 'A 1v1 match against the bot',
       chip_deck: 'Deck merge',
@@ -32,7 +36,7 @@
     },
     de: {
       skip: 'Zu den Spielen springen', hero_title: 'Kleine Spiele. Große Merges.',
-      hero_lead: 'Selbstgemachte Spiele von aribas.dev. Sofort im Browser spielen oder auf dem Handy installieren. Ohne Werbung, ohne Tracking.',
+      hero_lead: 'Selbstgemachte Spiele. Im Browser spielen oder auf dem Handy installieren. Ohne Werbung, ohne Tracking.',
       hero_cta: 'Spiele ansehen', games_h: 'Spiele', shots_label: 'Screenshots',
       shot1: 'Hauptmenü von Merge Defense', shot2: 'Auswahl eines Decks mit fünf Helden', shot3: 'Ein 1v1-Match gegen den Bot',
       chip_deck: 'Deck-Merge',
