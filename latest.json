@@ -10,7 +10,7 @@
       "updated": "2026-10-23T00:47:49Z",
       "web": "https://td.wostools.com",
       "ios": {
-        "ipa": "https://github.com/raribas/games-releases/releases/download/v1.0.0-6/MergeDefense.ipa",
+        "ipa": "https://github.com/raribas/games-releases/releases/latest/download/MergeDefense.ipa",
         "size": 80929017,
         "sha256": "bd5e30326e09f981aa9839c14533fe34b501da0a2dee8319d137dadde0f56e94",
         "min_os": "14.0"
