@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>aribas games</title>
+<meta name="description" content="Small games by aribas.dev. Play Merge Defense in the browser or install it on iOS and Android.">
+<meta name="color-scheme" content="dark light">
+<meta property="og:title" content="aribas games">
+<meta property="og:description" content="Merge Defense - tower defense with 1v1, co-op and deck merging.">
+<meta property="og:image" content="https://g.aribas.dev/assets/md-cover.webp">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<a class="skip" href="#games" data-i18n="skip">Skip to games</a>
+<header class="top">
+  <a class="brand" href="/" aria-label="aribas games"><img src="/favicon.svg" alt="" width="28" height="28"> aribas games</a>
+  <button type="button" class="lang" id="lang" aria-label="Language / Sprache">DE</button>
+</header>
+
+<main>
+  <section class="hero">
+    <h1 data-i18n="hero_title">Small games. Big merges.</h1>
+    <p class="lead" data-i18n="hero_lead">Handmade games by aribas.dev. Play instantly in your browser or install them on your phone. No ads, no tracking.</p>
+    <a class="btn primary" href="#merge-defense" data-i18n="hero_cta">See the games</a>
+  </section>
+
+  <section id="games" aria-labelledby="games-h">
+    <h2 id="games-h" data-i18n="games_h">Games</h2>
+
+    <article class="card" id="merge-defense" data-game="merge-defense" aria-labelledby="md-h">
+      <div class="shots" tabindex="0" role="group" aria-label="Screenshots" data-i18n-aria="shots_label">
+        <img src="/assets/md-menu.webp" width="375" height="812" loading="lazy" decoding="async" alt="Merge Defense main menu" data-i18n-alt="shot1">
+        <img src="/assets/md-deck.webp" width="375" height="812" loading="lazy" decoding="async" alt="Choosing a five-hero deck" data-i18n-alt="shot2">
+        <img src="/assets/md-match.webp" width="375" height="812" loading="lazy" decoding="async" alt="A 1v1 match against the bot" data-i18n-alt="shot3">
+      </div>
+
+      <div class="body">
+        <h3 id="md-h">Merge Defense</h3>
+        <ul class="chips">
+          <li>1v1</li><li>Co-op</li><li data-i18n="chip_deck">Deck merge</li>
+        </ul>
+        <p data-i18n="md_desc">A Rush-Royale-style tower defense. Build a deck of five heroes, merge matching ones to level them up, and send enemies to your opponent in 1v1 or team up in co-op. Beat the boss before the timer runs out.</p>
+
+        <p class="actions">
+          <a class="btn primary" href="https://td.wostools.com" rel="noopener" data-i18n="play">Play in browser</a>
+        </p>
+
+        <p class="note" id="sample-note" hidden data-i18n="sample_note">Sample data: the download links below are placeholders until the first release is published.</p>
+
+        <div class="meta" aria-live="polite">
+          <dl>
+            <div><dt data-i18n="version">Version</dt><dd id="m-version">-</dd></div>
+            <div><dt data-i18n="date">Date</dt><dd id="m-date">-</dd></div>
+            <div><dt data-i18n="build">Build</dt><dd id="m-build">-</dd></div>
+          </dl>
+          <p class="note" id="load-fallback" hidden data-i18n="fallback">Release info is not reachable right now. Please try again later.</p>
+        </div>
+
+        <div class="dl">
+          <section class="dl-box" aria-labelledby="ios-h">
+            <h4 id="ios-h">iOS</h4>
+            <div id="ios-slot"><span class="soon" data-i18n="soon">Coming soon</span></div>
+          </section>
+          <section class="dl-box" aria-labelledby="and-h">
+            <h4 id="and-h">Android</h4>
+            <div id="and-slot"><span class="soon" data-i18n="soon">Coming soon</span></div>
+          </section>
+        </div>
+
+        <details class="log" open>
+          <summary data-i18n="changelog">Changelog</summary>
+          <ul id="changelog"><li data-i18n="no_log">No changelog available yet.</li></ul>
+        </details>
+
+        <details class="log">
+          <summary data-i18n="upd_ios_h">iOS: install and update</summary>
+          <p class="actions">
+            <a class="btn" id="altstore-btn" href="altstore://source?url=https%3A%2F%2Fg.aribas.dev%2Faltstore.json" data-i18n="altstore_add">Add to AltStore</a>
+            <a class="btn" id="sidestore-btn" href="sidestore://source?url=https%3A%2F%2Fg.aribas.dev%2Faltstore.json" data-i18n="sidestore_add">Add to SideStore</a>
+          </p>
+          <p class="small"><span data-i18n="source_url">Source URL:</span> <code>https://g.aribas.dev/altstore.json</code></p>
+          <ol>
+            <li data-i18n="ios_1">AltStore or SideStore (recommended): add the source with the button above, then install Merge Defense. Updates then appear in the app.</li>
+            <li data-i18n="ios_2">Sideloadly: download the IPA above and install it from your computer. For updates, download the new IPA and install it again.</li>
+            <li data-i18n="ios_3">Apps installed with a free Apple ID expire after 7 days and must be refreshed (AltStore and SideStore can do this automatically).</li>
+          </ol>
+        </details>
+
+        <details class="log">
+          <summary data-i18n="upd_and_h">Android: install and update</summary>
+          <ol>
+            <li data-i18n="and_1">Download the APK above and open it.</li>
+            <li data-i18n="and_2">If asked, allow installing from this source ("unknown sources") for your browser or file manager.</li>
+            <li data-i18n="and_3">To update, download the newest APK and install it over the old one. Your data is kept.</li>
+          </ol>
+          <p class="small" data-i18n="ingame">The game shows an in-game hint when a newer version is available.</p>
+        </details>
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>&copy; aribas.dev</span>
+  <nav aria-label="Legal"><a href="/impressum.html" data-i18n="imprint">Imprint</a> <a href="/datenschutz.html" data-i18n="privacy">Privacy</a></nav>
+</footer>
+<script src="/app.js" defer></script>
+</body>
+</html>

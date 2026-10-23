@@ -1,0 +1,37 @@
+{
+  "name": "Aribas Games (SAMPLE)",
+  "identifier": "dev.aribas.g.sample",
+  "subtitle": "Sample AltStore source - replaced by the release pipeline",
+  "sourceURL": "https://g.aribas.dev/altstore.json",
+  "website": "https://g.aribas.dev",
+  "iconURL": "https://g.aribas.dev/assets/icon.png",
+  "tintColor": "#9be564",
+  "apps": [
+    {
+      "name": "Merge Defense",
+      "bundleIdentifier": "dev.aribas.mergedefense",
+      "developerName": "aribas.dev",
+      "subtitle": "Merge heroes. Beat the boss.",
+      "localizedDescription": "SAMPLE ENTRY. Rush-Royale-style tower defense with 1v1, co-op and deck merging.",
+      "iconURL": "https://g.aribas.dev/assets/icon.png",
+      "tintColor": "#9be564",
+      "screenshotURLs": [
+        "https://g.aribas.dev/assets/md-deck.webp",
+        "https://g.aribas.dev/assets/md-match.webp"
+      ],
+      "versions": [
+        {
+          "version": "0.0.0",
+          "buildVersion": "0",
+          "date": "2026-01-01",
+          "downloadURL": "https://example.invalid/MergeDefense-0.0.0.ipa",
+          "localizedDescription": "SAMPLE DATA",
+          "size": 83886080,
+          "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "minOSVersion": "14.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
