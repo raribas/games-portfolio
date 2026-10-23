@@ -1,30 +1,27 @@
 {
   "schema": 1,
-  "sample": true,
-  "updated": "2026-01-01T00:00:00Z",
+  "updated": "2026-10-23T00:47:49Z",
   "games": [
     {
       "id": "merge-defense",
       "name": "Merge Defense",
-      "version": "0.0.0",
-      "build": 0,
-      "updated": "2026-01-01T00:00:00Z",
+      "version": "1.0.0",
+      "build": 6,
+      "updated": "2026-10-23T00:47:49Z",
       "web": "https://td.wostools.com",
       "ios": {
-        "ipa": "https://example.invalid/MergeDefense-0.0.0.ipa",
-        "size": 83886080,
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "ipa": "https://github.com/raribas/games-releases/releases/download/v1.0.0-6/MergeDefense.ipa",
+        "size": 80929017,
+        "sha256": "bd5e30326e09f981aa9839c14533fe34b501da0a2dee8319d137dadde0f56e94",
         "min_os": "14.0"
       },
-      "android": {
-        "apk": "https://example.invalid/MergeDefense-0.0.0.apk",
-        "size": 78643200,
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "min_sdk": 24
-      },
       "changelog": {
-        "en": ["SAMPLE DATA - replaced by the release pipeline.", "Example entry"],
-        "de": ["BEISPIELDATEN - wird von der Release-Pipeline ersetzt.", "Beispieleintrag"]
+        "en": [
+          "First public build (iOS)"
+        ],
+        "de": [
+          "Erster oeffentlicher Build (iOS)"
+        ]
       }
     }
   ]
