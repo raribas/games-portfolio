@@ -1,7 +1,7 @@
 {
-  "name": "Merge Defense (SAMPLE)",
-  "identifier": "dev.aribas.g.sample",
-  "subtitle": "Sample AltStore source - replaced by the release pipeline",
+  "name": "Merge Defense",
+  "identifier": "dev.aribas.mergedefense.source",
+  "subtitle": "Merge heroes. Beat the boss.",
   "sourceURL": "https://g.aribas.dev/altstore.json",
   "website": "https://g.aribas.dev",
   "iconURL": "https://g.aribas.dev/assets/icon.png",
@@ -11,8 +11,8 @@
       "name": "Merge Defense",
       "bundleIdentifier": "dev.aribas.mergedefense",
       "developerName": "Merge Defense",
-      "subtitle": "Merge heroes. Beat the boss.",
-      "localizedDescription": "SAMPLE ENTRY. Rush-Royale-style tower defense with 1v1, co-op and deck merging.",
+      "subtitle": "Merge heroes. Defend the lane.",
+      "localizedDescription": "Rush-Royale-style tower defense with 1v1, co-op and deck merging.",
       "iconURL": "https://g.aribas.dev/assets/icon.png",
       "tintColor": "#9be564",
       "screenshotURLs": [
@@ -21,16 +21,20 @@
       ],
       "versions": [
         {
-          "version": "0.0.0",
-          "buildVersion": "0",
-          "date": "2026-01-01",
-          "downloadURL": "https://example.invalid/MergeDefense-0.0.0.ipa",
-          "localizedDescription": "SAMPLE DATA",
-          "size": 83886080,
-          "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "minOSVersion": "14.0"
+          "version": "1.0.0",
+          "buildVersion": "6",
+          "date": "2026-10-23",
+          "downloadURL": "https://github.com/raribas/games-releases/releases/download/v1.0.0-6/MergeDefense.ipa",
+          "size": 80929017,
+          "sha256": "bd5e30326e09f981aa9839c14533fe34b501da0a2dee8319d137dadde0f56e94",
+          "minOSVersion": "14.0",
+          "localizedDescription": "First public build"
         }
-      ]
+      ],
+      "version": "1.0.0",
+      "versionDate": "2026-10-23T00:47:49Z",
+      "downloadURL": "https://github.com/raribas/games-releases/releases/download/v1.0.0-6/MergeDefense.ipa",
+      "size": 80929017
     }
   ],
   "news": []
